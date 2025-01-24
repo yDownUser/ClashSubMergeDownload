@@ -31,6 +31,12 @@ jobs:
       with:
         php-version: '8.0'
 
+    - name: Run PHP Script Down
+      run: php down.php
+      
+    - name: Run PHP Script Import
+      run: php import.php
+      
     - name: Run PHP Script Delay
       env:
           URL: ${{ secrets.POST_URL }}
