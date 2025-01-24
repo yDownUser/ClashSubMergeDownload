@@ -111,11 +111,11 @@ if (($handle = fopen($filename, 'r')) !== false) {
 
     file_put_contents($filePath . 'Adata.json', $json);
     file_put_contents($filePath . 'Adata.yaml', $yaml);
- echo "j";
-    // $response = 
+    
+    echo "k";
     curl_post_xiu($sendUrl, array('isAppend' => 0, 'pwd' => $secret, 'json' => json_encode($proxiesDB)));
-    echo "o";
-    // echo // $response;
+    echo "m";
+    
     echo "\n";
     echo "全部搞定关闭";
     echo "\n";
