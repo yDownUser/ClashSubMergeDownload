@@ -1,0 +1,86 @@
+name: run
+
+on:
+  # push:
+  #   branches: [ "main" ]
+  # pull_request:
+  #   branches: [ "main" ]
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+  
+permissions:
+  contents: write
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Add the custom timezone database file
+      run: |
+        sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.0'
+
+    - name: Run PHP Script Down
+      run: php down.php
+      
+    - name: Run PHP Script Import
+      run: php import.php
+      
+    - name: Run PHP Script Delay
+      env:
+          URL: ${{ secrets.POST_URL }}
+          KEY: ${{ secrets.POST_KEY }}
+      run: php delay.php
+      
+    - name: Run PHP Script Csv
+      env:
+          URL: ${{ secrets.POST_URL }}
+          KEY: ${{ secrets.POST_KEY }}
+      run: php csv.php
+      
+    - name: Commit and push
+      run: |
+        git config --local user.email "test+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        # git config --local user.name "${{ github.actor }}"
+        git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        # git pull --rebase
+        git checkout --orphan latest_branch
+        git rm -rf --cached .
+        git add -A
+        git commit -m "$(date +'%Y-%m-%d %H:%M:%S') OK"
+        git branch -D ${{ github.ref_name }}
+        git branch -m ${{ github.ref_name }}
+        git push -f origin ${{ github.ref_name }}
+        
+    # - name: Validate composer.json and composer.lock
+    #   run: composer validate --strict
+
+    # - name: Cache Composer packages
+    #   id: composer-cache
+    #   uses: actions/cache@v3
+    #   with:
+    #     path: vendor
+    #     key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+    #     restore-keys: |
+    #       ${{ runner.os }}-php-
+
+    # - name: Install dependencies
+    #   run: composer install --prefer-dist --no-progress
+
+    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
+    # Docs: https://getcomposer.org/doc/articles/scripts.md
+
+    # - name: Run test suite
+    #   run: composer run-script test

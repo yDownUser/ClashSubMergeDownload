@@ -1,0 +1,8246 @@
+proxies:
+ -
+  name: trojan_20250207_1
+  server: gy.58n.net
+  port: 20141
+  type: trojan
+  password: 8b164756-ebc6-3906-bec0-52b5583ccb24
+  sni: z141.hongkongnode.top
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_2
+  server: gy.58n.net
+  port: 25238
+  type: trojan
+  password: 8b164756-ebc6-3906-bec0-52b5583ccb24
+  sni: z267.hongkongnode.top
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: vmess_20250207_3
+  server: 15.mamamajd.site
+  port: 23615
+  type: vmess
+  uuid: 8d56be76-e365-3745-bd39-db12dee2ba5e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: 15.mamamajd.site }
+  tfo: false
+ -
+  name: ss_20250207_4
+  server: 44.243.30.0
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: trojan_20250207_5
+  server: tj-hk-2.aikunapp.com
+  port: 6001
+  type: trojan
+  password: 50463abf-32e2-47c9-a205-b7894c40e2af
+  sni: 0PCrvpNAve6BS2xK.apple.com
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_6
+  server: gy.58n.net
+  port: 41767
+  type: trojan
+  password: 8b164756-ebc6-3906-bec0-52b5583ccb24
+  sni: x114.flybar.work
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_7
+  server: 13.229.199.138
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_8
+  server: 13.212.113.186
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_9
+  server: 13.229.229.102
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_10
+  server: 18.136.211.144
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_11
+  server: 103.149.183.61
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf
+  password: asd123456
+  tfo: false
+ -
+  name: trojan_20250207_12
+  server: gy.58n.net
+  port: 20299
+  type: trojan
+  password: 8b164756-ebc6-3906-bec0-52b5583ccb24
+  sni: x299.flybar.work
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_13
+  server: 146.103.40.29
+  port: 4017
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: U4nFT9mjZMq5RcpTzrOukA
+  tfo: false
+ -
+  name: vmess_20250207_14
+  server: 50031.baidu-cdn.top
+  port: 50031
+  type: vmess
+  uuid: 722ee660-ca57-467f-9eda-5739859212f9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_15
+  server: mdss-hk.04z3susick.download
+  port: 12001
+  type: ss
+  cipher: aes-128-gcm
+  password: b2e5c36c-257c-4a11-ae20-4fb99d44606a
+  tfo: false
+ -
+  name: vmess_20250207_16
+  server: 38.147.189.115
+  port: 49838
+  type: vmess
+  uuid: e413fd92-afde-423a-8ba2-b337bf5d7ca2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_17
+  server: 120.232.81.50
+  port: 16088
+  type: ss
+  cipher: aes-256-cfb
+  password: hGkQ6915tD
+  tfo: false
+ -
+  name: vmess_20250207_18
+  server: 38.147.189.158
+  port: 40755
+  type: vmess
+  uuid: 837d93be-fe14-4a50-bd11-ead5c00585d3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: vmess_20250207_19
+  server: 120.232.153.63
+  port: 40565
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_20
+  server: naiu-other.05vr9nyqg5.download
+  port: 13035
+  type: trojan
+  password: 2b39bbdd-a565-4f8e-b6b6-6b034b2076f4
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_21
+  server: mdss-jp.04z3susick.download
+  port: 12012
+  type: ss
+  cipher: aes-128-gcm
+  password: b2e5c36c-257c-4a11-ae20-4fb99d44606a
+  tfo: false
+ -
+  name: vmess_20250207_22
+  server: 45.159.51.161
+  port: 39131
+  type: vmess
+  uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: vmess_20250207_23
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  port: 60717
+  type: vmess
+  uuid: a173d4cd-4056-41dd-87a3-91c884e472fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_24
+  server: engaged-cattle.shiner427.skin
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: engaged-cattle.shiner427.skin
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: vmess_20250207_25
+  server: 50012.baidu-cdn.top
+  port: 50012
+  type: vmess
+  uuid: 224e3ed4-96d2-4ae0-8d24-070b0039074e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_26
+  server: dynamic-shrew.shiner427.skin
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: dynamic-shrew.shiner427.skin
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_27
+  server: summary-sawfish.shiner427.skin
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: summary-sawfish.shiner427.skin
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_28
+  server: 38.180.249.177
+  port: 8443
+  type: trojan
+  password: installshield
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_29
+  server: arriving-longhorn.shiner427.skin
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: arriving-longhorn.shiner427.skin
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_30
+  server: grateful-lark.shiner427.skin
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: grateful-lark.shiner427.skin
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: vmess_20250207_31
+  server: 38.147.161.47
+  port: 44447
+  type: vmess
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_32
+  server: 3.35.138.163
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_33
+  server: 47.129.38.168
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_34
+  server: 18.141.25.54
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_35
+  server: 185.234.64.35
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: YTNjNDY5
+  tfo: false
+ -
+  name: trojan_20250207_36
+  server: nb_ae7a7.kaiqsz.com
+  port: 18147
+  type: trojan
+  password: 7cd29891-fe78-4f8f-8844-abb31b9d9a75
+  sni: mm2.redapricotcloud.com
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: trojan_20250207_37
+  server: relieved-raccoon.shiner427.skin
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: relieved-raccoon.shiner427.skin
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: vmess_20250207_38
+  server: 42.236.73.72
+  port: 443
+  type: vmess
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: www.zitian.cn
+  tfo: false
+ -
+  name: trojan_20250207_39
+  server: 42.236.73.72
+  port: 443
+  type: trojan
+  password: fuck
+  sni: www.zitian.cn
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_40
+  port: '8080'
+  server: 103.104.247.49
+  type: ss
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_41
+  port: 8880
+  server: s1.db-link02.top
+  type: vmess
+  cipher: ''
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /dabai.in104.25.249.215
+   headers: { Host: 100-103-58-39.s1.db-link02.top }
+ -
+  name: vmess_20250207_42
+  port: '2095'
+  server: s1.db-link02.top
+  type: vmess
+  cipher: auto
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /dabai.in104.24.248.64
+   headers: { Host: 100-33-108-197.s1.db-link02.top }
+ -
+  name: vmess_20250207_43
+  port: 443
+  server: se.899994.xyz
+  type: vmess
+  cipher: ''
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /index
+   headers: { Host: se.899994.xyz }
+ -
+  name: ss_20250207_44
+  port: '40005'
+  server: sgp.fastsoonlink.com
+  type: ss
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_45
+  port: 2086
+  server: s2.cn-db.top
+  type: vmess
+  cipher: ''
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /dabai.in104.18.128.173
+   headers: { Host: 100-28-190-253.s2.cn-db.top }
+ -
+  name: vmess_20250207_46
+  port: 443
+  server: 202.78.162.5
+  type: vmess
+  cipher: auto
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /@forwardv2ray
+   headers: { Host: irsoft.sytes.net }
+ -
+  name: vmess_20250207_47
+  port: 443
+  server: tokyo.899994.xyz
+  type: vmess
+  cipher: auto
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /index
+   headers: { Host: tokyo.899994.xyz }
+ -
+  name: vmess_20250207_48
+  port: 8443
+  server: 45.144.48.128
+  type: vmess
+  cipher: ''
+  uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /vmess/
+   headers: { Host: '' }
+ -
+  name: ss_20250207_49
+  port: '18002'
+  server: 183.61.177.234
+  type: ss
+  password: 8UB3I39KM113QT9N
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_50
+  port: '51348'
+  server: 103.120.178.193
+  type: ss
+  password: pULZkJUnl5FB4mOQUngUKFtPfohf0cUCpOxqyRD52hy9WuHe
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_51
+  port: 80
+  server: 104.17.221.248
+  type: vmess
+  cipher: ''
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: chunchuan.kejixiaoqi666.store }
+ -
+  name: vmess_20250207_52
+  port: 2086
+  server: s1.cn-db.top
+  type: vmess
+  cipher: ''
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /dabai.in104.24.181.189
+   headers: { Host: 100-47-154-9.s1.cn-db.top }
+ -
+  name: vmess_20250207_53
+  port: 8443
+  server: ovhwuxian.pai50288.uk
+  type: vmess
+  cipher: auto
+  uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: ovhwuxian.pai50288.uk }
+ -
+  name: ss_20250207_54
+  port: '40368'
+  server: 193.243.147.128
+  type: ss
+  password: 7BcLdsO1WweoGD0X
+  cipher: aes-256-gcm
+ -
+  name: vmess_20250207_55
+  port: 8443
+  server: 14.102.229.82
+  type: vmess
+  cipher: ''
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /dyajvws
+   headers: { Host: lax2.ibgfw.top }
+ -
+  name: vmess_20250207_56
+  port: 443
+  server: www.visa.com.tw
+  type: vmess
+  cipher: ''
+  uuid: 42d6df5d-e21a-4d4e-8863-50da907543cc
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: halloween-validity-tooth-hammer.trycloudflare.com }
+ -
+  name: vmess_20250207_57
+  port: 8080
+  server: s4.db-link01.top
+  type: vmess
+  cipher: ''
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /dabai.in104.20.125.64
+   headers: { Host: 100-143-127-247.s4.db-link01.top }
+ -
+  name: vmess_20250207_58
+  port: 443
+  server: 172.67.136.233
+  type: vmess
+  cipher: ''
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /link
+   headers: { Host: az05.beyondy.cfd }
+ -
+  name: vmess_20250207_59
+  port: 8443
+  server: 92.53.188.185
+  type: vmess
+  cipher: ''
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /xrenvws
+   headers: { Host: lax1.ibgfw.top }
+ -
+  name: vmess_20250207_60
+  port: 80
+  server: s5.db-link02.top
+  type: vmess
+  cipher: ''
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /dabai.in104.18.75.85
+   headers: { Host: 100-235-225-209.s5.db-link02.top }
+ -
+  name: ss_20250207_61
+  server: sgp.fastsoonlink.com
+  port: 40005
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  udp: true
+  tfo: false
+ -
+  name: ss_20250207_62
+  server: 183.61.177.234
+  port: 18002
+  type: ss
+  cipher: aes-256-gcm
+  password: 8UB3I39KM113QT9N
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_63
+  server: 108.181.10.17
+  port: 80
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+  udp: true
+  tfo: false
+ -
+  name: ss_20250207_64
+  server: 84.17.53.163
+  port: 80
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_65
+  server: 107.167.182.230
+  port: 80
+  type: vmess
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /tg@hkaa0
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_66
+  server: zfa01.333210.xyz
+  port: 40383
+  type: trojan
+  password: 3aec9607-0136-4ca1-90c2-553a0322b25e
+  sni: cdn.alibaba.com
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_67
+  server: flkf2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: flkf2.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: ss_20250207_68
+  server: 51.158.54.209
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: asdKkaskJKfnsa
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_69
+  server: mrb2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: mrb2.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_70
+  server: ld2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: ld2.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: ss_20250207_71
+  server: 103.104.247.49
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_72
+  server: 104.17.18.26
+  port: 80
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_73
+  server: 104.26.8.44
+  port: 80
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_74
+  server: mm2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: mm2.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_75
+  server: mm3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: mm3.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: ss_20250207_76
+  server: 103.120.178.193
+  port: 51348
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: pULZkJUnl5FB4mOQUngUKFtPfohf0cUCpOxqyRD52hy9WuHe
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_77
+  server: settled-corgi.insect388.motorcycles
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: settled-corgi.insect388.motorcycles
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_78
+  server: 45.199.138.191
+  port: 30000
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /path/1696251522438
+  udp: true
+  tfo: false
+ -
+  name: ss_20250207_79
+  server: 193.243.147.128
+  port: 40368
+  type: ss
+  cipher: aes-256-gcm
+  password: 7BcLdsO1WweoGD0X
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_80
+  server: jd3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: jd3.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_81
+  server: 13.48.161.43
+  port: 22222
+  type: trojan
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_82
+  server: 52.77.206.160
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: flying-tuna.treefrog761.one
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_83
+  server: 206.168.190.219
+  port: 2082
+  type: vmess
+  uuid: e31ca750-71f7-11ee-b920-1239d0255272
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /vmws
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_84
+  server: wnd2.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: wnd2.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_85
+  server: 45.199.138.186
+  port: 30000
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /path/1696682720138
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_86
+  server: wnd3.shabijichang.com
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: wnd3.shabijichang.com }
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_87
+  server: 104.21.75.246
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_88
+  server: 13.36.58.188
+  port: 22222
+  type: trojan
+  password: telegram-id-privatevpns
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_89
+  server: 18.157.239.29
+  port: 22222
+  type: trojan
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: vmess_20250207_90
+  server: s1.db-link02.top
+  port: 2095
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /dabai.in104.24.248.64
+   headers: { Host: 100-33-108-197.s1.db-link02.top }
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_91
+  server: 63.177.221.114
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: natural-aphid.insect388.motorcycles
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_92
+  server: us003.421421.xyz
+  port: 20230
+  type: trojan
+  password: 072c477b-90c1-4600-998f-1a2990542782
+  sni: 421421.xyz
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: trojan_20250207_93
+  server: robust-insect.insect388.motorcycles
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: robust-insect.insect388.motorcycles
+  skip-cert-verify: true
+  udp: true
+  tfo: false
+ -
+  name: ss_20250207_94
+  server: 54.212.56.86
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: vmess_20250207_95
+  server: 50027.baidu-cdn.top
+  port: 50027
+  type: vmess
+  uuid: b222084f-7993-4518-a940-b1fdac146995
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_96
+  server: 18.183.142.200
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_97
+  server: 34.221.94.162
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: vmess_20250207_98
+  server: 19.mamamajd.site
+  port: 23619
+  type: vmess
+  uuid: 5d45ab48-f488-3f1a-8a7b-fcb3104d0222
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: 19.mamamajd.site }
+  tfo: false
+ -
+  name: ss_20250207_99
+  server: south.sf0jm.xyz
+  port: 49224
+  type: ss
+  cipher: aes-128-gcm
+  password: 5911d36c-530a-40d6-b31c-505f238ca313
+  tfo: false
+ -
+  name: ss_20250207_100
+  server: 120.232.81.50
+  port: 15084
+  type: ss
+  cipher: aes-256-cfb
+  password: hGkQ6915tD
+  tfo: false
+ -
+  name: ss_20250207_101
+  server: 13.250.99.8
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_102
+  server: 47.129.255.141
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_103
+  server: south.sf0jm.xyz
+  port: 49216
+  type: ss
+  cipher: aes-128-gcm
+  password: 5911d36c-530a-40d6-b31c-505f238ca313
+  tfo: false
+ -
+  name: ss_20250207_104
+  server: 35.94.55.129
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_105
+  server: south.sf0jm.xyz
+  port: 49104
+  type: ss
+  cipher: aes-128-gcm
+  password: 5911d36c-530a-40d6-b31c-505f238ca313
+  tfo: false
+ -
+  name: ss_20250207_106
+  server: 13.125.94.61
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_107
+  server: 18.141.177.51
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: vmess_20250207_108
+  server: s2.cn-db.top
+  port: 2052
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /dabai.in104.17.31.68
+   headers: { Host: 100-252-79-9.s2.cn-db.top }
+  tfo: false
+ -
+  name: ss_20250207_109
+  server: 52.40.94.174
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: trojan_20250207_110
+  server: more-tomcat.insect388.motorcycles
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: more-tomcat.insect388.motorcycles
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: vmess_20250207_111
+  server: 38.147.189.163
+  port: 12926
+  type: vmess
+  uuid: e2103b64-fdfd-4efb-8330-c1c1ff0efdea
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  tfo: false
+ -
+  name: ss_20250207_112
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 15008
+  type: ss
+  cipher: aes-256-gcm
+  password: 8OCJMAVUOSVBYS7V
+  tfo: false
+ -
+  name: ss_20250207_113
+  server: 183.61.177.234
+  port: 15012
+  type: ss
+  cipher: aes-256-gcm
+  password: FPJ3XYH5EY246SXU
+  tfo: false
+ -
+  name: ss_20250207_114
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 15004
+  type: ss
+  cipher: aes-256-gcm
+  password: KPOQG1L4BS2PKML1
+  tfo: false
+ -
+  name: ss_20250207_115
+  server: gdgs.tarioblink.me
+  port: 30003
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 25bb46e8-d80f-4b48-9272-7129e88366b2
+  tfo: false
+ -
+  name: ss_20250207_116
+  server: 183.232.239.172
+  port: 18007
+  type: ss
+  cipher: aes-256-gcm
+  password: K7R8EUUO2R6UWI9I
+  tfo: false
+ -
+  name: ss_20250207_117
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 18004
+  type: ss
+  cipher: aes-256-gcm
+  password: 8RS3Y3L50W6YNV8V
+  tfo: false
+ -
+  name: ss_20250207_118
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  port: 16005
+  type: ss
+  cipher: aes-256-gcm
+  password: 2XZNFVL28OOLLELR
+  tfo: false
+ -
+  name: ss_20250207_119
+  server: w72tapyb.slashdevslashnetslashtun.net
+  port: 16010
+  type: ss
+  cipher: aes-256-gcm
+  password: UEC9F1QB458GMQEK
+  tfo: false
+ -
+  name: ss_20250207_120
+  server: 183.61.177.234
+  port: 16002
+  type: ss
+  cipher: aes-256-gcm
+  password: 0HBGSZP1UCOGQDZW
+  tfo: false
+ -
+  name: ss_20250207_121
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 17004
+  type: ss
+  cipher: aes-256-gcm
+  password: LJSU1P9549K09CVE
+  tfo: false
+ -
+  name: ss_20250207_122
+  server: qh62onjn.slashdevslashnetslashtun.net
+  port: 17007
+  type: ss
+  cipher: aes-256-gcm
+  password: MXNFC7XS62Z7R729
+  tfo: false
+ -
+  name: ss_20250207_123
+  server: 183.61.177.234
+  port: 17006
+  type: ss
+  cipher: aes-256-gcm
+  password: 5FJF20OHXKZCSDEB
+  tfo: false
+ -
+  name: ss_20250207_124
+  server: 54.180.248.97
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_125
+  server: 52.195.0.55
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  tfo: false
+ -
+  name: ss_20250207_126
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  port: 20002
+  type: ss
+  cipher: aes-256-gcm
+  password: 1T5BLKXJ0M1WF2W4
+  tfo: false
+ -
+  name: vmess_20250207_127
+  port: 2086
+  server: 104.19.38.62
+  type: vmess
+  cipher: auto
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_128
+  port: 2086
+  server: 104.19.47.122
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_129
+  port: 2086
+  server: 104.19.57.4
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_130
+  port: 2086
+  server: 104.19.47.79
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: ss_20250207_131
+  port: '989'
+  server: 163.172.64.22
+  type: ss
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+ -
+  name: vmess_20250207_132
+  port: 2086
+  server: 104.19.46.36
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_133
+  port: 2086
+  server: 104.19.46.39
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_134
+  port: 2052
+  server: 104.19.21.240
+  type: vmess
+  cipher: auto
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_135
+  port: 2086
+  server: 104.19.47.32
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: ss_20250207_136
+  port: '443'
+  server: 3.39.227.28
+  type: ss
+  password: amazonskr05
+  cipher: aes-256-cfb
+ -
+  name: vmess_20250207_137
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  type: vmess
+  cipher: auto
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_138
+  port: 2086
+  server: 104.20.25.146
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: ss_20250207_139
+  port: '7001'
+  server: 38.114.114.207
+  type: ss
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+ -
+  name: vmess_20250207_140
+  port: 2086
+  server: 172.64.198.249
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: ss_20250207_141
+  port: '59019'
+  server: fuck5.mmmmmmmmmm.cfd
+  type: ss
+  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_142
+  port: 2086
+  server: 104.19.21.230
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_143
+  port: 2086
+  server: 104.19.45.47
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_144
+  port: 2086
+  server: 104.18.57.111
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_145
+  port: 8080
+  server: 104.19.47.126
+  type: vmess
+  cipher: auto
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_146
+  port: 2052
+  server: 104.19.46.123
+  type: vmess
+  cipher: auto
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: ss_20250207_147
+  port: '443'
+  server: 54.179.87.28
+  type: ss
+  password: amazonskr05
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_148
+  port: '29814'
+  server: 51.141.73.244
+  type: ss
+  password: nEyOTWmtPG5tdgZqMQEq4R
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_149
+  port: 2086
+  server: 104.19.51.232
+  type: vmess
+  cipher: auto
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: ss_20250207_150
+  port: '15082'
+  server: 59.56.77.178
+  type: ss
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+ -
+  name: vmess_20250207_151
+  port: 2086
+  server: 104.19.46.233
+  type: vmess
+  cipher: auto
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_152
+  port: 2086
+  server: 104.19.46.59
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_153
+  port: 2086
+  server: 104.19.46.27
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_154
+  port: 2086
+  server: 104.19.45.15
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_155
+  port: 45103
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  type: vmess
+  cipher: auto
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_156
+  port: 2052
+  server: 104.16.38.71
+  type: vmess
+  cipher: auto
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: us6_0.wish.ml }
+ -
+  name: vmess_20250207_157
+  port: 35972
+  server: 45.147.200.170
+  type: vmess
+  cipher: auto
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+ -
+  name: vmess_20250207_158
+  port: 12910
+  server: 45.136.245.240
+  type: vmess
+  cipher: auto
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_159
+  port: 2052
+  server: hk.wish.ml
+  type: vmess
+  cipher: auto
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: us6_0.wish.ml }
+ -
+  name: vmess_20250207_160
+  port: 34053
+  server: us-sanfrancisco-02.t3csyun.buzz
+  type: vmess
+  cipher: auto
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_161
+  port: 2052
+  server: 104.17.156.224
+  type: vmess
+  cipher: auto
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: in4.wish.ml }
+ -
+  name: vmess_20250207_162
+  port: 2052
+  server: 172.67.164.78
+  type: vmess
+  cipher: auto
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: in3.wish.ml }
+ -
+  name: vmess_20250207_163
+  port: 16928
+  server: vip3.niuniupremium.xyz
+  type: vmess
+  cipher: auto
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_164
+  port: 8080
+  server: 148.135.40.190
+  type: vmess
+  cipher: auto
+  uuid: f6c4905b-0308-4164-b1ad-4157531a8378
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_165
+  port: 2082
+  server: 104.21.8.157
+  type: vmess
+  cipher: auto
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: s1c.v2.v001sss.xyz }
+ -
+  name: vmess_20250207_166
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  type: vmess
+  cipher: auto
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_167
+  port: 2052
+  server: 104.18.37.248
+  type: vmess
+  cipher: auto
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_168
+  port: 8080
+  server: 104.19.47.16
+  type: vmess
+  cipher: auto
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_169
+  port: 2086
+  server: 104.19.47.65
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_170
+  port: 16928
+  server: 120.232.240.56
+  type: vmess
+  cipher: auto
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_171
+  port: 54002
+  server: 183.240.235.162
+  type: vmess
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+ -
+  name: vmess_20250207_172
+  port: 2052
+  server: p3.v2raybrasil.cloud
+  type: vmess
+  cipher: auto
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_173
+  port: 2086
+  server: 104.19.32.46
+  type: vmess
+  cipher: auto
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_174
+  port: 54882
+  server: 183.240.235.162
+  type: vmess
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+ -
+  name: vmess_20250207_175
+  port: 8080
+  server: russia.com
+  type: vmess
+  cipher: auto
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_176
+  port: 2082
+  server: 172.67.130.140
+  type: vmess
+  cipher: auto
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_177
+  port: 2086
+  server: 172.64.175.213
+  type: vmess
+  cipher: auto
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: '' }
+ -
+  name: vmess_20250207_178
+  port: '12926'
+  server: 38.147.189.163
+  type: vmess
+  cipher: auto
+  uuid: e2103b64-fdfd-4efb-8330-c1c1ff0efdea
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+ -
+  name: vmess_20250207_179
+  port: '443'
+  server: 42.236.73.72
+  type: vmess
+  cipher: auto
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+ -
+  name: vmess_20250207_180
+  port: 8080
+  server: www.darkroom.lol
+  type: vmess
+  cipher: auto
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: www.darkroom.lol }
+ -
+  name: vmess_20250207_181
+  port: 8880
+  server: server31.beheshtbaneh.com
+  type: vmess
+  cipher: auto
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: server31.beheshtbaneh.com }
+ -
+  name: vmess_20250207_182
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
+  type: vmess
+  cipher: auto
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /debian
+   headers: { Host: data-us-v1.shwjfkw.cn }
+ -
+  name: vmess_20250207_183
+  port: 8880
+  server: 104.21.82.183
+  type: vmess
+  cipher: auto
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: server26.beheshtbaneh.com }
+ -
+  name: vmess_20250207_184
+  port: 443
+  server: gov.uk
+  type: vmess
+  cipher: auto
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  alterId: 0
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /77848824
+   headers: { Host: zheshiscp.com }
+ -
+  name: vmess_20250207_185
+  port: 8880
+  server: server32.beheshtbaneh.com
+  type: vmess
+  cipher: auto
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  alterId: 0
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: server32.beheshtbaneh.com }
+ -
+  name: ss_20250207_186
+  port: '15008'
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+  password: 8OCJMAVUOSVBYS7V
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_187
+  port: '15012'
+  server: 183.61.177.234
+  type: ss
+  password: FPJ3XYH5EY246SXU
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_188
+  port: '15004'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  password: KPOQG1L4BS2PKML1
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_189
+  port: '16088'
+  server: 120.232.81.50
+  type: ss
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_190
+  port: '30003'
+  server: gdgs.tarioblink.me
+  type: ss
+  password: 25bb46e8-d80f-4b48-9272-7129e88366b2
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ss_20250207_191
+  port: '18007'
+  server: 183.232.239.172
+  type: ss
+  password: K7R8EUUO2R6UWI9I
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_192
+  port: '18004'
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+  password: 8RS3Y3L50W6YNV8V
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_193
+  port: '16005'
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+  password: 2XZNFVL28OOLLELR
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_194
+  port: '16010'
+  server: w72tapyb.slashdevslashnetslashtun.net
+  type: ss
+  password: UEC9F1QB458GMQEK
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_195
+  port: '16002'
+  server: 183.61.177.234
+  type: ss
+  password: 0HBGSZP1UCOGQDZW
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_196
+  port: '17004'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  password: LJSU1P9549K09CVE
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_197
+  port: '17007'
+  server: qh62onjn.slashdevslashnetslashtun.net
+  type: ss
+  password: MXNFC7XS62Z7R729
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_198
+  port: '17006'
+  server: 183.61.177.234
+  type: ss
+  password: 5FJF20OHXKZCSDEB
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_199
+  port: '443'
+  server: 54.180.248.97
+  type: ss
+  password: amazonskr05
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_200
+  port: '443'
+  server: 52.195.0.55
+  type: ss
+  password: amazonskr05
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_201
+  port: '443'
+  server: 13.125.94.61
+  type: ss
+  password: amazonskr05
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_202
+  port: '20002'
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  password: 1T5BLKXJ0M1WF2W4
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_203
+  type: ss
+  server: 185.47.253.171
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+ -
+  name: ss_20250207_204
+  type: ss
+  server: 18.236.161.128
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: trojan_20250207_205
+  type: trojan
+  server: 18.130.94.50
+  port: 22222
+  sni: trojan.burgerip.co.uk
+  password: telegram-id-directvpn
+  network: tcp
+  alpn:
+   - http/1.1
+ -
+  name: ss_20250207_206
+  type: ss
+  server: 34.211.228.158
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_207
+  type: ss
+  server: 35.91.132.50
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_208
+  type: ss
+  server: 217.30.10.18
+  port: 9037
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
+ -
+  name: ss_20250207_209
+  type: ss
+  server: 91.132.94.200
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+ -
+  name: ss_20250207_210
+  type: ss
+  server: 35.163.107.154
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_211
+  type: ss
+  server: south.sf0jm.xyz
+  port: 49227
+  cipher: aes-128-gcm
+  password: 5911d36c-530a-40d6-b31c-505f238ca313
+ -
+  name: ss_20250207_212
+  type: ss
+  server: 176.103.53.105
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+ -
+  name: trojan_20250207_213
+  type: trojan
+  server: 63.177.194.108
+  port: 22222
+  sni: trojan.burgerip.co.uk
+  password: telegram-id-privatevpns
+ -
+  name: ss_20250207_214
+  type: ss
+  server: 45.158.171.146
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+ -
+  name: ss_20250207_215
+  type: ss
+  server: 185.47.252.251
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+ -
+  name: ss_20250207_216
+  type: ss
+  server: 217.30.10.18
+  port: 9060
+  cipher: aes-256-cfb
+  password: ueLXVkvh4hckhErQ
+ -
+  name: ss_20250207_217
+  type: ss
+  server: jsyd.piaomiaoxu.net
+  port: 3684
+  cipher: aes-256-gcm
+  password: 3f5b5b7c-f6ac-4bcf-9820-e12fba929628
+ -
+  name: vmess_20250207_218
+  type: vmess
+  server: 13.mamamajd.site
+  port: 23613
+  uuid: 5d45ab48-f488-3f1a-8a7b-fcb3104d0222
+  cipher: auto
+  network: ws
+  ws-opts:
+   path: /
+   headers: { host: 13.mamamajd.site }
+  alterId: 2
+ -
+  name: ss_20250207_219
+  type: ss
+  server: 185.237.185.160
+  port: 989
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+ -
+  name: ss_20250207_220
+  type: ss
+  server: 217.30.10.18
+  port: 9010
+  cipher: aes-256-cfb
+  password: f63gg8EruDnUrmz4
+ -
+  name: ss_20250207_221
+  type: ss
+  server: a.naiun.node-is.green
+  port: 51105
+  cipher: chacha20-ietf-poly1305
+  password: 9ffcf7da-fc63-450a-b586-7416558075c9
+ -
+  name: ss_20250207_222
+  type: ss
+  server: 217.30.10.18
+  port: 9050
+  cipher: aes-256-cfb
+  password: FG5ddLsMPbV5CutE
+ -
+  name: ss_20250207_223
+  type: ss
+  server: 217.30.10.18
+  port: 9041
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+ -
+  name: ss_20250207_224
+  type: ss
+  server: 217.30.10.18
+  port: 9064
+  cipher: aes-256-cfb
+  password: cp8pRSUAyLhTfVWH
+ -
+  type: trojan
+  name: trojan_20250207_225
+  server: 58.176.229.127
+  port: 35002
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_226
+  server: 47.57.13.107
+  port: 443
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mmdserver.us.kg
+  ws-opts:
+   path: '/?ed=2048'
+   headers: { host: mmdserver.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_227
+  server: 43.154.34.74
+  port: 1935
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_228
+  server: bs1.loadingip.com
+  port: 443
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
+  udp: true
+  skip-cert-verify: true
+  sni: bs1.loadingip.com
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_229
+  server: 129.154.207.203
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_230
+  server: 45.66.216.162
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_231
+  server: 35.234.3.153
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vmess
+  name: vmess_20250207_232
+  ws-opts:
+   path: /
+   headers: { host: tms.dingtalk.com }
+  server: sd3.forlive.live
+  port: '40396'
+  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
+  alterId: '0'
+  cipher: auto
+  network: ws
+ -
+  type: vless
+  name: vless_20250207_233
+  server: 104.17.147.22
+  port: 80
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: redw.pooriam.ir
+  ws-opts:
+   path: '/?ed=marambashi_marambashi/?ed=2560'
+   headers: { host: redw.pooriam.ir }
+ -
+  type: vless
+  name: vless_20250207_234
+  server: 129.154.207.203
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_235
+  server: 18.176.8.247
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_236
+  server: 47.79.84.195
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_237
+  server: 146.56.155.102
+  port: 20003
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_238
+  server: 211.105.35.130
+  port: 30012
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=211.105.35.130:30012'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_239
+  server: 38.180.29.115
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_240
+  server: 14.38.83.195
+  port: 12578
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_241
+  server: 114.30.225.88
+  port: 30030
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=114.30.225.88:50025'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_242
+  server: 119.202.158.65
+  port: 29798
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_243
+  server: 125.128.227.141
+  port: 50000
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_244
+  server: 104.16.46.27
+  port: 80
+  uuid: 98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: cold-snowflake-4912-ppal03.rarenok889.workers.dev
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: cold-snowflake-4912-ppal03.rarenok889.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_245
+  server: 114.30.225.88
+  port: 50025
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_246
+  server: 121.176.175.54
+  port: 32444
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_247
+  server: 210.183.11.2
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_248
+  server: 46.254.92.33
+  port: 443
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mmdserver.us.kg
+  ws-opts:
+   path: '/?ed=marambashi_marambashi/?ed=2560'
+   headers: { host: mmdserver.us.kg }
+ -
+  type: vless
+  name: vless_20250207_249
+  server: tgju.org
+  port: 80
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: a.xn--i-sx6a60i.us.kg.
+  ws-opts:
+   path: '/?ed=marambashi_marambashi/?ed=2560'
+   headers: { host: a.xn--i-sx6a60i.us.kg. }
+ -
+  type: vless
+  name: vless_20250207_250
+  server: 121.144.225.213
+  port: 38520
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_251
+  server: 220.94.139.69
+  port: 10083
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_252
+  server: 121.137.2.55
+  port: 18245
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_253
+  server: 211.57.90.42
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_254
+  server: 104.26.12.101
+  port: 2052
+  uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
+  ws-opts:
+   path: '/?ed=1080'
+   headers: { host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt }
+ -
+  type: trojan
+  name: trojan_20250207_255
+  server: 220.117.126.46
+  port: 12462
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_256
+  server: 175.215.175.175
+  port: 50003
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_257
+  server: 154.31.113.72
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_258
+  server: 104.18.10.128
+  port: 2086
+  uuid: d345d11e-c424-4583-b36e-527ab1f0afa4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: v2raynselling.kir-rasol-kir.workers.dev
+  ws-opts:
+   path: /
+   headers: { host: v2raynselling.kir-rasol-kir.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_259
+  server: 211.218.223.130
+  port: 30012
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_260
+  server: zula.ir
+  port: 8080
+  uuid: cefd5a6f-c391-48b2-bde6-8896fd7bd01c
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: seyyed.webdade.ip-ddns.com
+  ws-opts:
+   path: '/telegram---vpncustomize--telegram--vpncustomize--telegram--vpncustomize--telegram--vpncustomize--telegram----vpncustomize?ed=2048'
+   headers: { host: seyyed.webdade.ip-ddns.com }
+ -
+  type: trojan
+  name: trojan_20250207_261
+  server: 221.165.64.92
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_262
+  server: 59.14.159.113
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_263
+  server: 220.117.126.46
+  port: 12462
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_264
+  server: 125.128.227.141
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_265
+  server: 183.106.162.127
+  port: 18888
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=183.106.162.127:18888'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_266
+  server: 121.181.209.121
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_267
+  server: 175.208.140.189
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_268
+  server: 210.183.11.2
+  port: 50000
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_269
+  server: 221.149.132.232
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_270
+  server: 59.22.140.62
+  port: 12462
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_271
+  server: 14.56.139.220
+  port: 11112
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_272
+  server: 154.21.93.44
+  port: 6667
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_273
+  server: 104.18.26.94
+  port: 80
+  uuid: 499ee245-f954-4d41-9943-4e85666b7414
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: esetsecuritylicense.mybdgpd.workers.dev
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: esetsecuritylicense.mybdgpd.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_274
+  server: 175.201.220.169
+  port: 19222
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_275
+  server: 59.0.201.231
+  port: 35531
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_276
+  server: 119.196.34.173
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_277
+  server: 119.198.67.48
+  port: 10033
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_278
+  server: 175.192.27.197
+  port: 16992
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_279
+  server: 121.132.58.142
+  port: 12452
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_280
+  server: 172.67.65.113
+  port: 2083
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_281
+  server: 104.20.129.2
+  port: 80
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: pormang.webhost99.workers.dev
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: pormang.webhost99.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_282
+  server: 27.50.49.224
+  port: 8443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_283
+  server: 154.26.176.94
+  port: 8443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_284
+  server: 59.22.140.62
+  port: 12462
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_285
+  server: 211.199.65.186
+  port: 14524
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_286
+  server: 43.198.207.3
+  port: 2087
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_287
+  server: 119.202.158.65
+  port: 29798
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_288
+  server: 121.144.225.213
+  port: 38520
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_289
+  server: 43.198.104.113
+  port: 2087
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_290
+  server: 92.60.74.100
+  port: 443
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mmdserver.us.kg
+  ws-opts:
+   path: /
+   headers: { host: mmdserver.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_291
+  server: 14.41.85.118
+  port: 12101
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_292
+  server: 104.18.15.19
+  port: 2052
+  uuid: 13ed4a8b-6049-4f26-8cb3-9870df4fda4c
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 0107.cxypogon.workers.dev
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: 0107.cxypogon.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_293
+  server: 104.26.15.138
+  port: 2053
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_294
+  server: 154.21.88.20
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_295
+  server: 172.66.43.162
+  port: 2052
+  uuid: 636b1684-b26c-4a9c-bc6e-8e1197a36d74
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: workerr.hashdiler.workers.dev
+  ws-opts:
+   path: /t.me/config_station
+   headers: { host: workerr.hashdiler.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_296
+  server: 162.159.44.48
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_297
+  server: 27.50.48.21
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_298
+  server: 61.239.234.5
+  port: 35500
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=61.239.234.5:35500'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_299
+  server: 104.16.53.48
+  port: 80
+  uuid: c1659206-d827-41f6-9f73-f18ca30102d3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: still-forest-e3e8-ppal03.mekah93880.workers.dev
+  ws-opts:
+   path: /
+   headers: { host: still-forest-e3e8-ppal03.mekah93880.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_300
+  server: 52.220.205.101
+  port: 9997
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_301
+  server: 45.131.6.1
+  port: 80
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 901.dbodanwi.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: 901.dbodanwi.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_302
+  server: 221.149.132.232
+  port: 50000
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_303
+  server: 154.211.8.152
+  port: 2053
+  password: wb6368
+  udp: true
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_304
+  server: 175.201.220.169
+  port: 19222
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_305
+  server: 162.159.44.235
+  port: 2053
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_306
+  server: 104.18.27.94
+  port: 80
+  uuid: 572d1cbe-1c26-4765-8865-7ee3ad737c5a
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: esetsecuritylicense.mikon76654.workers.dev
+  ws-opts:
+   path: /proxyip=proxyip.us.fxxk.dedyn.io
+   headers: { host: esetsecuritylicense.mikon76654.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_307
+  server: 45.131.6.102
+  port: 80
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 901.dbodanwi.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: 901.dbodanwi.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_308
+  server: 27.50.48.115
+  port: 2087
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_309
+  server: 198.41.218.111
+  port: 80
+  uuid: 76b3cbba-e6ac-485a-9481-336a0415eab9
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: OlD-disk-EFCd.JojAhoF109.WorKerS.DEv
+  ws-opts:
+   path: /
+   headers: { host: OlD-disk-EFCd.JojAhoF109.WorKerS.DEv }
+ -
+  type: trojan
+  name: trojan_20250207_310
+  server: 154.64.224.46
+  port: 2181
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_311
+  server: 162.159.44.235
+  port: 2053
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_312
+  server: 45.131.210.83
+  port: 80
+  uuid: cdb15365-1ccb-4d5a-a5d9-6fb08d3c75ac
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mahdihector.kewojod243.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: mahdihector.kewojod243.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_313
+  server: 45.140.88.118
+  port: 8443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_314
+  server: 27.50.49.136
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_315
+  server: 92.243.74.23
+  port: 2096
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_316
+  server: 172.67.70.33
+  port: 2096
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_317
+  server: sage.ns.cloudflare.com
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_318
+  server: 172.67.168.93
+  port: 2095
+  uuid: 8169cd18-e824-47a4-a4d4-96433b1a519d
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: testdvpnhub69.95f425b718.workers.dev
+  ws-opts:
+   path: /proxyip=proxyip.us.fxxk.dedyn.io
+   headers: { host: testdvpnhub69.95f425b718.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_319
+  server: 38.59.242.216
+  port: 30002
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_320
+  server: join.vpncustomize.fastly80-3.hosting-ip.com
+  port: 80
+  uuid: cefd5a6f-c391-48b2-bde6-8896fd7bd01c
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: JoinBede--VPNCUSTOMIZE--VPNCUSTOMIZE.ir
+  ws-opts:
+   path: '/telegram-vpncustomize--telegram-vpncustomize--telegram---vpncustomize--telegram---vpncustomize--telegram---vpncustomize?ed=2048'
+   headers: { host: JoinBede--VPNCUSTOMIZE--VPNCUSTOMIZE.ir }
+ -
+  type: trojan
+  name: trojan_20250207_321
+  server: 154.21.93.44
+  port: 6667
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_322
+  server: 45.140.88.214
+  port: 4443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_323
+  server: 104.24.207.192
+  port: 443
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: gozargah.validbv7996.ir
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: gozargah.validbv7996.ir }
+ -
+  type: trojan
+  name: trojan_20250207_324
+  server: 23.165.40.54
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_325
+  server: 154.218.15.250
+  port: 2083
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_326
+  server: 45.131.4.96
+  port: 80
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 901.dbodanwi.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: 901.dbodanwi.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_327
+  server: 92.243.75.49
+  port: 2087
+  password: wb6368
+  udp: true
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_328
+  server: 162.159.44.76
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_329
+  server: 162.159.39.181
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_330
+  server: 116.206.92.39
+  port: 587
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_331
+  server: arvind.ns.cloudflare.com
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_332
+  server: 212.183.88.246
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_333
+  server: 156.229.164.148
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_334
+  server: 45.67.215.242
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_335
+  server: 63.141.128.193
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_336
+  server: 162.159.44.233
+  port: 8443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_337
+  server: 216.221.213.189
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_338
+  server: 45.67.215.98
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_339
+  server: 212.183.88.94
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_340
+  server: 63.141.128.177
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=63.141.128.177:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_341
+  server: 130.250.137.107
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_342
+  server: 160.79.105.99
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_343
+  server: 192.0.54.18
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_344
+  server: 160.79.104.19
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=160.79.104.197:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_345
+  server: 27.50.49.74
+  port: 2087
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_346
+  server: 172.67.163.189
+  port: 8080
+  uuid: dc580147-c87c-4527-bf90-192eb1cf62d1
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: stArt.siTEG52770.WorKeRS.deV
+  ws-opts:
+   path: '/v7zmcpzuul2t1r5r/mc4wljauma==?ed=2560'
+   headers: { host: stArt.siTEG52770.WorKeRS.deV }
+ -
+  type: vless
+  name: vless_20250207_347
+  server: 38.6.219.16
+  port: 8080
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_348
+  server: 141.11.86.109
+  port: 8080
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vmess
+  name: vmess_20250207_349
+  ws-opts:
+   path: /dabai.in104.19.155.231
+   headers: { host: 100-230-189-184.s1.cn-db.top }
+  server: s1.cn-db.top
+  port: '8080'
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: '0'
+  cipher: auto
+  network: ws
+ -
+  type: vless
+  name: vless_20250207_350
+  server: 194.76.18.99
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=194.76.18.99:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_351
+  server: 216.24.57.98
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=216.24.57.98:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_352
+  server: 206.238.237.92
+  port: 2087
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_353
+  server: 206.238.237.243
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=206.238.237.243:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_354
+  server: 216.24.57.130
+  port: 8880
+  uuid: 1b6ae0f5-01dc-4b96-bca9-31c672dcf0aa
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mohsenfitshr.wibibin259.workers.dev
+  ws-opts:
+   path: '/@azarbayjab1@azarbayjab1@azarbayjab1?ed=2560'
+   headers: { host: mohsenfitshr.wibibin259.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_355
+  server: 192.200.160.99
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=192.200.160.99:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_356
+  server: 185.18.250.12
+  port: 80
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ana-SErVICe.xAbjCDZ.wORkErs.deV
+  ws-opts:
+   path: '/1y6mn5dfv8zb82ai?ed=2560'
+   headers: { host: ana-SErVICe.xAbjCDZ.wORkErs.deV }
+ -
+  type: trojan
+  name: trojan_20250207_357
+  server: 121.137.62.90
+  port: 50000
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_358
+  server: 43.156.205.36
+  port: 7777
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_359
+  server: 135.84.76.115
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=135.84.76.115:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_360
+  server: 63.141.128.122
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_361
+  server: 63.141.128.58
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_362
+  server: 160.79.104.98
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_363
+  server: 27.50.48.61
+  port: 2083
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_364
+  server: 45.131.5.98
+  port: 80
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 901.dbodanwi.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: 901.dbodanwi.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_365
+  server: 45.131.209.41
+  port: 80
+  uuid: cdb15365-1ccb-4d5a-a5d9-6fb08d3c75ac
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mahdihector.kewojod243.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: mahdihector.kewojod243.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_366
+  server: 45.67.215.174
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_367
+  server: 192.0.54.0
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=192.0.54.0:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_368
+  server: 192.0.54.137
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=192.0.54.137:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_369
+  server: 104.20.30.149
+  port: 8443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_370
+  server: 212.183.88.231
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=212.183.88.231:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_371
+  server: 206.238.236.192
+  port: 2087
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_372
+  server: 45.131.209.84
+  port: 80
+  uuid: cdb15365-1ccb-4d5a-a5d9-6fb08d3c75ac
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mahdihector.kewojod243.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: mahdihector.kewojod243.workers.dev }
+ -
+  type: vmess
+  name: vmess_20250207_373
+  ws-opts:
+   path: /dabai.in104.24.131.61
+   headers: { host: 100-38-108-222.s2.db-link02.top }
+  server: s2.db-link02.top
+  port: '2082'
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: '0'
+  cipher: auto
+  network: ws
+ -
+  type: vless
+  name: vless_20250207_374
+  server: 212.183.88.136
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_375
+  server: 63.141.128.218
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_376
+  server: 188.253.6.210
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vmess
+  name: vmess_20250207_377
+  ws-opts:
+   path: /dabai.in104.18.179.207
+   headers: { host: 100-70-193-42.s1.cn-db.top }
+  server: s1.cn-db.top
+  port: '2052'
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: '0'
+  cipher: auto
+  network: ws
+ -
+  type: vless
+  name: vless_20250207_378
+  server: thaddeus.ns.cloudflare.com
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_379
+  server: 45.131.7.7
+  port: 8080
+  uuid: f47fb03f-7f15-41e0-bd7e-2371dc710e32
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: c00021he.ab7db0ab17.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: c00021he.ab7db0ab17.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_380
+  server: 45.131.7.0
+  port: 80
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 901.dbodanwi.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: 901.dbodanwi.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_381
+  server: 45.140.88.214
+  port: 4443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_382
+  server: 210.222.30.180
+  port: 17100
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_383
+  server: 160.79.104.181
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=160.79.104.181:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_384
+  server: 38.22.91.158
+  port: 30001
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_385
+  server: 104.24.175.2
+  port: 80
+  uuid: 3487ce43-b803-4770-97ff-f75880d7f9b4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: rough-mud-93b4-ppal03.wedane7745.workers.dev
+  ws-opts:
+   path: ...
+   headers: { host: rough-mud-93b4-ppal03.wedane7745.workers.dev }
+ -
+  type: vless
+  name: vless_20250207_386
+  server: lynn.ns.cloudflare.com
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_387
+  server: 45.131.210.103
+  port: 80
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 901.dbodanwi.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: 901.dbodanwi.workers.dev }
+ -
+  type: vmess
+  name: vmess_20250207_388
+  ws-opts:
+   path: /dabai.in104.19.138.212
+   headers: { host: 100-171-52-115.s1.cn-db.top }
+  server: s1.cn-db.top
+  port: '8880'
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: '0'
+  cipher: auto
+  network: ws
+ -
+  type: vless
+  name: vless_20250207_389
+  server: 63.141.128.103
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_390
+  server: 43.134.34.18
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_391
+  server: jsxzcm.concubine.top
+  port: 46029
+  uuid: 1d0926e1-9fd3-4a48-8dd5-fa73928723f9
+  skip-cert-verify: true
+  network: tcp
+  tls: false
+  udp: true
+ -
+  type: trojan
+  name: trojan_20250207_392
+  server: 185.183.84.93
+  port: 30001
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_393
+  server: 212.183.88.186
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=212.183.88.186:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_394
+  server: 45.131.6.99
+  port: 80
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: 901.dbodanwi.workers.dev
+  ws-opts:
+   path: 'telegram @wangcai2 /?ed=2048'
+   headers: { host: 901.dbodanwi.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_395
+  server: 172.66.207.17
+  port: 2083
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_396
+  server: 129.146.46.164
+  port: 443
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mmdserver.us.kg
+  ws-opts:
+   path: '/?ed=2048'
+   headers: { host: mmdserver.us.kg }
+ -
+  type: vless
+  name: vless_20250207_397
+  server: 216.24.57.108
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_398
+  server: kip.ns.cloudflare.com
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_399
+  server: 103.116.7.103
+  port: 2083
+  password: wb6368
+  udp: true
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_400
+  server: 45.87.103.154
+  port: 52001
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_401
+  server: 91.217.139.169
+  port: 587
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_402
+  server: 107.174.79.149
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_403
+  server: 45.67.215.212
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: trojan
+  name: trojan_20250207_404
+  server: 45.87.103.154
+  port: 52001
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_405
+  server: 91.217.139.169
+  port: 587
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_406
+  server: 206.238.236.134
+  port: 443
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_407
+  server: 192.200.160.26
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_408
+  server: 40.69.106.103
+  port: 443
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mmghgy5.azurewebsites.net
+  ws-opts:
+   path: /
+   headers: { host: mmghgy5.azurewebsites.net }
+ -
+  type: trojan
+  name: trojan_20250207_409
+  server: 13.53.224.93
+  port: 22222
+  password: telegram-id-privatevpns
+  udp: true
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_410
+  server: fastly.net
+  port: 80
+  uuid: c834946b-c876-50a8-84ce-cad3cba8bd86
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: PABLOO-MOSTAFA.COM
+  ws-opts:
+   path: /
+   headers: { host: PABLOO-MOSTAFA.COM }
+ -
+  type: trojan
+  name: trojan_20250207_411
+  server: 91.149.239.234
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_412
+  server: 45.67.215.109
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_413
+  server: 160.79.105.85
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=160.79.105.85:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_414
+  server: 3.234.15.167
+  port: 22222
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: telegram-channel-vlessconfig.sohala.uk
+  ws-opts:
+   path: /telegram-channel-vlessconfig-ws
+   headers: { host: telegram-channel-vlessconfig.sohala.uk }
+ -
+  type: vless
+  name: vless_20250207_415
+  server: 38.59.242.216
+  port: 30002
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_416
+  server: 202.37.33.80
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: /re.vs2024.us.kg
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_417
+  server: 206.238.236.219
+  port: 2083
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_418
+  server: theo.ns.cloudflare.com
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_419
+  server: 185.16.110.91
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=185.16.110.91:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_420
+  server: 160.79.105.233
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=160.79.105.233:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_421
+  server: 104.16.105.66
+  port: 80
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: plain-thunder-a1d0-ppal03.dakox63637.workers.dev
+  ws-opts:
+   path: /proxyip=proxyip.us.fxxk.dedyn.io
+   headers: { host: plain-thunder-a1d0-ppal03.dakox63637.workers.dev }
+ -
+  type: trojan
+  name: trojan_20250207_422
+  server: 172.67.68.56
+  port: 2096
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_423
+  server: 185.133.35.99
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=185.133.35.99:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_424
+  server: 63.141.128.37
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/ re.vs2024.us.kg'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_425
+  server: 160.79.104.116
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=160.79.104.116:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_426
+  server: 185.133.35.242
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_427
+  server: 104.18.123.117
+  port: 2053
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_428
+  server: 141.147.92.143
+  port: 8443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: /uxs.vs2024.us.kg
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_429
+  server: 192.0.54.235
+  port: 443
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: mmdserver.us.kg
+  ws-opts:
+   path: '/?ed=2048'
+   headers: { host: mmdserver.us.kg }
+ -
+  type: vless
+  name: vless_20250207_430
+  server: 185.16.110.103
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=185.16.110.103:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_431
+  server: 162.159.44.78
+  port: 2096
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_432
+  server: 35.156.31.33
+  port: 22222
+  password: telegram-id-directvpn
+  udp: true
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_433
+  server: 135.84.76.105
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: '/?ed=2560&proxyip=135.84.76.105:443'
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vless
+  name: vless_20250207_434
+  server: 154.64.224.46
+  port: 2181
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: trojan
+  name: trojan_20250207_435
+  server: 188.253.6.210
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_436
+  server: 51.44.86.78
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: trojan
+  name: trojan_20250207_437
+  server: 188.166.162.201
+  port: 443
+  password: Aimer
+  udp: true
+  skip-cert-verify: true
+  sni: ngepz.ambercc.filegear-sg.me
+  network: tcp
+ -
+  type: vless
+  name: vless_20250207_438
+  server: 206.238.236.29
+  port: 2087
+  uuid: cf3df05c-bb63-427a-b48a-d8b1d9ada2c4
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: ngedc.ambercc.filegear-sg.me
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { host: ngedc.ambercc.filegear-sg.me }
+ -
+  type: vless
+  name: vless_20250207_439
+  server: 104.16.132.207
+  port: 443
+  uuid: 42f36835-730c-4ecc-9daf-20121ae7ba47
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: gozargah.validbv7996.ir
+  ws-opts:
+   path: /
+   headers: { host: gozargah.validbv7996.ir }
+ -
+  type: vless
+  name: vless_20250207_440
+  server: 45.67.215.0
+  port: 443
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  skip-cert-verify: true
+  udp: true
+  tls: true
+  network: ws
+  servername: re.vs2024.us.kg
+  ws-opts:
+   path: /uxs.vs2024.us.kg
+   headers: { host: re.vs2024.us.kg }
+ -
+  type: vmess
+  name: vmess_20250207_441
+  server: 66.42.86.202
+  port: '8881'
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: '0'
+  cipher: auto
+  network: tcp
+ -
+  name: vmess_20250207_442
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  port: 443
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /azumase.ren
+  tls: true
+  ws-headers:
+   Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+ -
+  name: vmess_20250207_443
+  server: 104.19.48.236
+  port: 80
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: chunchuan.kejixiaoqi666.store
+ -
+  name: ss_20250207_444
+  server: 204.136.10.115
+  port: 1866
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oXGp1+ihlfKg826H
+ -
+  name: vmess_20250207_445
+  server: 104.17.213.241
+  port: 80
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: chunchuan.kejixiaoqi666.store
+ -
+  name: vmess_20250207_446
+  server: 104.16.155.10
+  port: 80
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: chunchuan.kejixiaoqi666.store
+ -
+  name: vmess_20250207_447
+  server: 198.41.209.70
+  port: 80
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: chunchuan.kejixiaoqi666.store
+ -
+  name: vmess_20250207_448
+  server: mods-destruction-academy-gear.trycloudflare.com
+  port: 443
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+   Host: mods-destruction-academy-gear.trycloudflare.com
+ -
+  name: ss_20250207_449
+  server: 185.177.229.245
+  port: 1866
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oXGp1+ihlfKg826H
+ -
+  name: vmess_20250207_450
+  server: s1.cn-db.top
+  port: 2095
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in104.25.132.97
+  tls: false
+  ws-headers:
+   Host: 100-139-204-73.s1.cn-db.top
+ -
+  name: trojan_20250207_451
+  server: 61.130.144.150
+  port: 21126
+  type: trojan
+  password: 061a01f1-704b-4712-8e12-6d3fc95a127d
+  sni: gmarket.phantasy.life
+  skip-cert-verify: true
+ -
+  name: vmess_20250207_452
+  server: s4.cn-db.top
+  port: 80
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in172.64.27.157
+  tls: false
+  ws-headers:
+   Host: 100-210-164-205.s4.cn-db.top
+ -
+  name: vmess_20250207_453
+  server: s4.db-link01.top
+  port: 2082
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in104.25.248.188
+  tls: false
+  ws-headers:
+   Host: 100-4-150-250.s4.db-link01.top
+ -
+  name: vmess_20250207_454
+  server: s2.db-link02.top
+  port: 2082
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in104.24.131.61
+  tls: false
+  ws-headers:
+   Host: 100-38-108-222.s2.db-link02.top
+ -
+  name: trojan_20250207_455
+  server: 18.139.61.105
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: dynamic-shrew.shiner427.skin
+  skip-cert-verify: true
+ -
+  name: trojan_20250207_456
+  server: 15.156.41.125
+  port: 22222
+  type: trojan
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+ -
+  name: trojan_20250207_457
+  server: better-caribou.insect388.motorcycles
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: better-caribou.insect388.motorcycles
+  skip-cert-verify: true
+ -
+  name: trojan_20250207_458
+  server: 16.171.73.239
+  port: 22222
+  type: trojan
+  password: telegram-id-privatevpns
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+ -
+  name: ss_20250207_459
+  server: 77.83.246.74
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: OErGEINn5GzpACOcFFJtWV
+ -
+  name: vmess_20250207_460
+  server: 104.21.112.1
+  port: 8443
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /index
+  tls: true
+  ws-headers:
+   Host: nl.899994.xyz
+ -
+  name: vmess_20250207_461
+  server: s2.cn-db.top
+  port: 8880
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in104.24.231.155
+  tls: false
+  ws-headers:
+   Host: 100-165-40-54.s2.cn-db.top
+ -
+  name: ss_20250207_462
+  server: tw1.ydso.xyz
+  port: 30443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 25bb46e8-d80f-4b48-9272-7129e88366b2
+ -
+  name: vmess_20250207_463
+  server: hk-bmg.cowvpn.org
+  port: 443
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /cctv13/vmess_hk-bmgcf
+  tls: true
+  ws-headers:
+   Host: hk-bmgcf.cowvpn.org
+ -
+  name: vmess_20250207_464
+  server: 50032.baidu-cdn.top
+  port: 50032
+  type: vmess
+  uuid: b222084f-7993-4518-a940-b1fdac146995
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: 50032.baidu-cdn.top
+ -
+  name: vmess_20250207_465
+  server: 104.21.80.1
+  port: 443
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /index
+  tls: true
+  ws-headers:
+   Host: br.899994.xyz
+ -
+  name: trojan_20250207_466
+  server: 44.213.197.235
+  port: 443
+  type: trojan
+  password: 65086520307764900
+  sni: arriving-longhorn.shiner427.skin
+  skip-cert-verify: true
+ -
+  name: trojan_20250207_467
+  server: 15.156.135.102
+  port: 22222
+  type: trojan
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  skip-cert-verify: true
+ -
+  name: vmess_20250207_468
+  server: 50003.baidu-cdn.top
+  port: 50003
+  type: vmess
+  uuid: 722ee660-ca57-467f-9eda-5739859212f9
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: 50003.baidu-cdn.top
+ -
+  name: vmess_20250207_469
+  server: nl.899994.xyz
+  port: 8443
+  type: vmess
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /index
+  tls: true
+  ws-headers:
+   Host: nl.899994.xyz
+ -
+  name: vmess_20250207_470
+  server: tls.99.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: true
+  ws-headers:
+   Host: tls.99.node-for-bigairport.win
+ -
+  name: ss_20250207_471
+  server: 18.141.24.255
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_472
+  server: 13.229.128.74
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: trojan_20250207_473
+  server: amused-buzzard.insect388.motorcycles
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: amused-buzzard.insect388.motorcycles
+  skip-cert-verify: true
+ -
+  name: ss_20250207_474
+  server: rk1.boost1.top
+  port: 40000
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f175d66f-7cf5-47aa-83be-a8e969cdbe2d
+ -
+  name: ss_20250207_475
+  server: 3.34.123.239
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: trojan_20250207_476
+  server: real-meerkat.insect388.motorcycles
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: real-meerkat.insect388.motorcycles
+  skip-cert-verify: true
+ -
+  name: trojan_20250207_477
+  server: flying-tuna.treefrog761.one
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: flying-tuna.treefrog761.one
+  skip-cert-verify: true
+ -
+  name: trojan_20250207_478
+  server: probable-drum.treefrog761.one
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: probable-drum.treefrog761.one
+  skip-cert-verify: true
+ -
+  name: trojan_20250207_479
+  server: natural-aphid.insect388.motorcycles
+  port: 443
+  type: trojan
+  password: 3774827088566296576
+  sni: natural-aphid.insect388.motorcycles
+  skip-cert-verify: true
+ -
+  name: vmess_20250207_480
+  server: sd3.forlive.live
+  port: 40396
+  type: vmess
+  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: tms.dingtalk.com
+ -
+  name: vmess_20250207_481
+  server: s1.cn-db.top
+  port: 8080
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in104.19.155.231
+  tls: false
+  ws-headers:
+   Host: 100-230-189-184.s1.cn-db.top
+ -
+  name: vmess_20250207_482
+  server: s1.cn-db.top
+  port: 2052
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in104.18.179.207
+  tls: false
+  ws-headers:
+   Host: 100-70-193-42.s1.cn-db.top
+ -
+  name: vmess_20250207_483
+  server: s1.cn-db.top
+  port: 8880
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  ws-path: /dabai.in104.19.138.212
+  tls: false
+  ws-headers:
+   Host: 100-171-52-115.s1.cn-db.top
+ -
+  name: vmess_20250207_484
+  server: 66.42.86.202
+  port: 8881
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+   Host: 66.42.86.202
+ -
+  cipher: aes-256-cfb
+  name: ss_20250207_485
+  password: amazonskr05
+  port: 443
+  server: 35.89.15.28
+  type: ss
+ -
+  cipher: aes-256-cfb
+  name: ss_20250207_486
+  password: amazonskr05
+  port: 443
+  server: 54.179.0.37
+  type: ss
+ -
+  name: trojan_20250207_487
+  password: baf8e463-daed-38ec-8f2b-49b2d8632676
+  port: 20300
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z300.hongkongnode.top
+  type: trojan
+  udp: true
+ -
+  alterId: 0
+  cipher: auto
+  name: vmess_20250207_488
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: bff773bb-fc5e-4d51-9799-462ff4b8f841
+ -
+  name: trojan_20250207_489
+  password: '3774827088566296576'
+  port: 443
+  server: sunny-jackal.insect388.motorcycles
+  skip-cert-verify: true
+  sni: sunny-jackal.insect388.motorcycles
+  type: trojan
+ -
+  name: trojan_20250207_490
+  password: baf8e463-daed-38ec-8f2b-49b2d8632676
+  port: 54178
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x115.flybar.work
+  type: trojan
+  udp: true
+ -
+  cipher: chacha20-ietf-poly1305
+  name: ss_20250207_491
+  password: 43af8cd1-b378-490e-bccf-f04628bc8db4
+  port: 41004
+  server: vip.baima360.com
+  type: ss
+ -
+  name: trojan_20250207_492
+  password: 43af8cd1-b378-490e-bccf-f04628bc8db4
+  port: 158
+  server: 107.149.254.26
+  skip-cert-verify: true
+  type: trojan
+ -
+  name: trojan_20250207_493
+  password: '3774827088566296576'
+  port: 443
+  server: allowed-bear.insect388.motorcycles
+  skip-cert-verify: true
+  sni: allowed-bear.insect388.motorcycles
+  type: trojan
+ -
+  name: http_20250207_494
+  type: http
+  server: krecs.ftq.ink
+  port: 4002
+  tls: true
+ -
+  name: vmess_20250207_495
+  server: westsg2-ddns.oraclenat.cc
+  port: 23452
+  type: vmess
+  uuid: d902ab38-d8fb-4c7b-9e0d-e043dac90ac5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: westsg2-ddns.oraclenat.cc }
+  udp: true
+ -
+  name: vmess_20250207_496
+  server: visa.com
+  port: 443
+  type: vmess
+  uuid: eb34e175-5fad-4e88-bcc6-c236eabcc6ec
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: go.daluquan.top }
+  udp: true
+ -
+  name: ss_20250207_497
+  server: tw-04.douyucdn.top
+  port: 28864
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: vmess_20250207_498
+  server: haa.dashuai.cyou
+  port: 45066
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_499
+  server: gy.666666222.shop
+  port: 47564
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: hysteria2_20250207_500
+  server: 185.121.134.12
+  port: 31639
+  type: hysteria2
+  password: c2775cff-cd2d-4903-ac5f-35eb30479dff
+  auth: c2775cff-cd2d-4903-ac5f-35eb30479dff
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+ -
+  name: ss_20250207_501
+  server: southvip1.pkyun.xyz
+  port: 58813
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: hysteria2_20250207_502
+  server: 195.58.49.42
+  port: 28153
+  type: hysteria2
+  password: 08436ae1-9a75-48da-b1e8-5272b001d678
+  auth: 08436ae1-9a75-48da-b1e8-5272b001d678
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+ -
+  name: ss_20250207_503
+  server: kr-01.douyucdn.top
+  port: 25821
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_504
+  server: southvip1.pkyun.xyz
+  port: 34004
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_505
+  server: southvip1.pkyun.xyz
+  port: 58734
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_506
+  server: 195.58.49.42
+  port: 20311
+  type: vmess
+  uuid: 0a0d99e5-6ff4-49dd-bf49-693f61f3a4bb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+   path: /
+  udp: true
+ -
+  name: vmess_20250207_507
+  server: xdd.dashuai.cyou
+  port: 45077
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_508
+  server: qd.needss.top
+  port: 54774
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_509
+  server: dcaxzpdw.whmvmkwuey.store
+  port: 443
+  type: vmess
+  uuid: 83d45654-a80e-4242-93af-ab7676ddda56
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: dcaxzpdw.whmvmkwuey.store }
+  udp: true
+ -
+  name: ss_20250207_510
+  server: southvip1.pkyun.xyz
+  port: 58852
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_511
+  server: southvip1.pkyun.xyz
+  port: 58826
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_512
+  server: southvip1.pkyun.xyz
+  port: 58822
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_513
+  server: jg647hf446ghvw.eucs.cn
+  port: 49709
+  type: ss
+  cipher: aes-256-gcm
+  password: a0266e72-f326-41ba-b163-67b0c41eb9e1
+  udp: true
+ -
+  name: vmess_20250207_514
+  server: qd.needss.top
+  port: 45112
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_515
+  server: southvip1.pkyun.xyz
+  port: 58815
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_516
+  server: shhh001.oraclenat.cc
+  port: 23451
+  type: vmess
+  uuid: 8e0eba9e-82a0-4423-b089-8c19a526444e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: shhh001.oraclenat.cc }
+  udp: true
+ -
+  name: vmess_20250207_517
+  server: haa.dashuai.cyou
+  port: 45052
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_518
+  server: xdd.dashuai.cyou
+  port: 45063
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_519
+  server: southvip1.pkyun.xyz
+  port: 58825
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_520
+  server: frankfurt.faforex.eu.org
+  port: 23451
+  type: vmess
+  uuid: 49a11654-7dc7-44de-98e0-546ab2aa8fe0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+   path: '/itdog?ed=2560'
+   headers: { Host: us-new03.daluquan.top }
+  udp: true
+ -
+  name: ss_20250207_521
+  server: in-01.douyucdn.top
+  port: 25911
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_522
+  server: southvip1.pkyun.xyz
+  port: 58811
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_523
+  server: southvip1.pkyun.xyz
+  port: 58809
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_524
+  server: hkg-05.douyucdn.top
+  port: 28525
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_525
+  server: tw-03.douyucdn.top
+  port: 28863
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_526
+  server: tw-01.douyucdn.top
+  port: 28861
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: vmess_20250207_527
+  server: haa.dashuai.cyou
+  port: 45064
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_528
+  server: southvip1.pkyun.xyz
+  port: 58818
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: hysteria2_20250207_529
+  server: oracle-arm-london1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: london1.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: ss_20250207_530
+  server: southvip1.pkyun.xyz
+  port: 58819
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: hysteria2_20250207_531
+  server: oracle-arm-chuncheon1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: ss_20250207_532
+  server: jp-03.douyucdn.top
+  port: 25813
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: vmess_20250207_533
+  server: qd.needss.top
+  port: 20014
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_534
+  server: gy.666666222.shop
+  port: 20013
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: ss_20250207_535
+  server: southvip1.pkyun.xyz
+  port: 58801
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_536
+  server: southvip1.pkyun.xyz
+  port: 58710
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_537
+  server: southvip1.pkyun.xyz
+  port: 58833
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_538
+  server: sg-01.douyucdn.top
+  port: 25651
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_539
+  server: southvip1.pkyun.xyz
+  port: 58841
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_540
+  server: southvip1.pkyun.xyz
+  port: 34501
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_541
+  server: hkg-04.douyucdn.top
+  port: 28524
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_542
+  server: southvip1.pkyun.xyz
+  port: 58816
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_543
+  server: southvip1.pkyun.xyz
+  port: 58805
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_544
+  server: southvip1.pkyun.xyz
+  port: 58736
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_545
+  server: southvip1.pkyun.xyz
+  port: 58839
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_546
+  server: us-02.douyucdn.top
+  port: 25512
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: vmess_20250207_547
+  server: xdd.dashuai.cyou
+  port: 45051
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_548
+  server: i.needss.top
+  port: 44410
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_549
+  server: southvip1.pkyun.xyz
+  port: 58821
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_550
+  server: southvip1.pkyun.xyz
+  port: 34302
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: hysteria2_20250207_551
+  server: oracle-amd-tokyo1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: tokyo.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: vmess_20250207_552
+  server: haa.dashuai.cyou
+  port: 45078
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_553
+  server: jp-01.douyucdn.top
+  port: 25811
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_554
+  server: southvip1.pkyun.xyz
+  port: 32306
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: hysteria2_20250207_555
+  server: oracle-arm-frankfurt1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: frankfurt1.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: ss_20250207_556
+  server: southvip1.pkyun.xyz
+  port: 58817
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_557
+  server: sg-04.douyucdn.top
+  port: 25654
+  type: ss
+  cipher: aes-128-gcm
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_558
+  server: jp-04.douyucdn.top
+  port: 25814
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_559
+  server: sg-06.douyucdn.top
+  port: 25566
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_560
+  server: gy.666666222.shop
+  port: 20006
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: ss_20250207_561
+  server: kr-02.douyucdn.top
+  port: 25822
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_562
+  server: southvip1.pkyun.xyz
+  port: 58848
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_563
+  server: xdd.dashuai.cyou
+  port: 45065
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_564
+  server: southvip1.pkyun.xyz
+  port: 34103
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_565
+  server: southvip1.pkyun.xyz
+  port: 58828
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_566
+  server: gy.666666222.shop
+  port: 20004
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: ss_20250207_567
+  server: gy.666666222.shop
+  port: 20035
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: vmess_20250207_568
+  server: i.needss.top
+  port: 52103
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_569
+  server: i.needss.top
+  port: 54787
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_570
+  server: gy.666666222.shop
+  port: 20052
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: vmess_20250207_571
+  server: haa.dashuai.cyou
+  port: 45072
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_572
+  server: i.needss.top
+  port: 30028
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_573
+  server: de-01.douyucdn.top
+  port: 28491
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_574
+  server: southvip1.pkyun.xyz
+  port: 58807
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_575
+  server: southvip1.pkyun.xyz
+  port: 34401
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_576
+  server: southvip1.pkyun.xyz
+  port: 58823
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_577
+  server: southvip1.pkyun.xyz
+  port: 58832
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_578
+  server: southvip1.pkyun.xyz
+  port: 34003
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_579
+  server: i.needss.top
+  port: 20017
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_580
+  server: i.needss.top
+  port: 54770
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_581
+  server: southvip1.pkyun.xyz
+  port: 58814
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_582
+  server: hkg-03.douyucdn.top
+  port: 28523
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_583
+  server: southvip1.pkyun.xyz
+  port: 58850
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_584
+  server: i.needss.top
+  port: 15442
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_585
+  server: southvip1.pkyun.xyz
+  port: 58851
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_586
+  server: southvip1.pkyun.xyz
+  port: 58803
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_587
+  server: gy.666666222.shop
+  port: 20016
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: ss_20250207_588
+  server: southvip1.pkyun.xyz
+  port: 34403
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_589
+  server: southvip1.pkyun.xyz
+  port: 34402
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_590
+  server: hkg-02.douyucdn.top
+  port: 28522
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_591
+  server: southvip1.pkyun.xyz
+  port: 58847
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_592
+  server: us-01.douyucdn.top
+  port: 25511
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: vmess_20250207_593
+  server: i.needss.top
+  port: 20015
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_594
+  server: southvip1.pkyun.xyz
+  port: 58827
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_595
+  server: haa.dashuai.cyou
+  port: 45054
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_596
+  server: southvip1.pkyun.xyz
+  port: 58830
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_597
+  server: southvip1.pkyun.xyz
+  port: 34303
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_598
+  server: xdd.dashuai.cyou
+  port: 45073
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: hysteria2_20250207_599
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: san-jose2.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: ss_20250207_600
+  server: gy.666666222.shop
+  port: 20008
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: ss_20250207_601
+  server: southvip1.pkyun.xyz
+  port: 58837
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_602
+  server: sg-03.douyucdn.top
+  port: 25653
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: vmess_20250207_603
+  server: i.needss.top
+  port: 20014
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_604
+  server: sg-02.douyucdn.top
+  port: 25652
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_605
+  server: southvip1.pkyun.xyz
+  port: 58853
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_606
+  server: southvip1.pkyun.xyz
+  port: 34001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_607
+  server: southvip1.pkyun.xyz
+  port: 58849
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_608
+  server: southvip1.pkyun.xyz
+  port: 34301
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: hysteria2_20250207_609
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: main.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: hysteria2_20250207_610
+  server: oracle-amd-osaka1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: osaka.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: vmess_20250207_611
+  server: xdd.dashuai.cyou
+  port: 45053
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_612
+  server: southvip1.pkyun.xyz
+  port: 58804
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_613
+  server: southvip1.pkyun.xyz
+  port: 58854
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_614
+  server: southvip1.pkyun.xyz
+  port: 58840
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_615
+  server: i.needss.top
+  port: 20011
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_616
+  server: tw-02.douyucdn.top
+  port: 28862
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_617
+  server: southvip1.pkyun.xyz
+  port: 58831
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_618
+  server: i.needss.top
+  port: 20021
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_619
+  server: i.needss.top
+  port: 20016
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_620
+  server: hkg-06.douyucdn.top
+  port: 28526
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_621
+  server: southvip1.pkyun.xyz
+  port: 58820
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_622
+  server: qd.needss.top
+  port: 52108
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: hysteria2_20250207_623
+  server: oracle-arm-chuncheon2.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: ss_20250207_624
+  server: gy.666666222.shop
+  port: 20032
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: vmess_20250207_625
+  server: xdd.dashuai.cyou
+  port: 45057
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_626
+  server: southvip1.pkyun.xyz
+  port: 34104
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_627
+  server: southvip1.pkyun.xyz
+  port: 58835
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_628
+  server: hk.kfsldflk.xyz
+  port: 1200
+  type: ss
+  cipher: aes-256-gcm
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: vmess_20250207_629
+  server: xdd.dashuai.cyou
+  port: 45067
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_630
+  server: haa.dashuai.cyou
+  port: 45062
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_631
+  server: southvip1.pkyun.xyz
+  port: 58808
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_632
+  server: gy.666666222.shop
+  port: 34338
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: vmess_20250207_633
+  server: xdd.dashuai.cyou
+  port: 45071
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_634
+  server: haa.dashuai.cyou
+  port: 45074
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: vmess_20250207_635
+  server: haa.dashuai.cyou
+  port: 45056
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_636
+  server: sg-05.douyucdn.top
+  port: 25565
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: vmess_20250207_637
+  server: qd.needss.top
+  port: 31001
+  type: vmess
+  uuid: 89983f81-da52-4bf0-8a8f-c63d790ac965
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_638
+  server: southvip1.pkyun.xyz
+  port: 34102
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: hysteria2_20250207_639
+  server: oracle-arm-seoul1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  auth: 807bf600-c8f4-4cd9-9c1b-ac797de03e8a
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+ -
+  name: ss_20250207_640
+  server: southvip1.pkyun.xyz
+  port: 58845
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_641
+  server: gy.666666222.shop
+  port: 20002
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 88572173-491f-4ef9-b8ed-1dcc28ac026c
+  udp: true
+ -
+  name: ss_20250207_642
+  server: us-03.douyucdn.top
+  port: 25513
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_643
+  server: southvip1.pkyun.xyz
+  port: 58846
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_644
+  server: jp-02.douyucdn.top
+  port: 25812
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: fe30217a-0b92-4f90-9342-50701a895429
+  udp: true
+ -
+  name: ss_20250207_645
+  server: southvip1.pkyun.xyz
+  port: 58812
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_646
+  server: southvip1.pkyun.xyz
+  port: 58824
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_647
+  server: southvip1.pkyun.xyz
+  port: 58802
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: vmess_20250207_648
+  server: xdd.dashuai.cyou
+  port: 45055
+  type: vmess
+  uuid: cad3c789-11f8-4f47-93a3-a03ce05a4c81
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+ -
+  name: ss_20250207_649
+  server: southvip1.pkyun.xyz
+  port: 58838
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 53afba97-ae84-42f9-8900-3e9ee954e29e
+  udp: true
+ -
+  name: ss_20250207_650
+  server: 54.249.170.37
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_651
+  server: 52.78.178.243
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_652
+  server: 13.213.9.167
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_653
+  server: 13.125.215.15
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: vmess_20250207_654
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  port: 11171
+  type: vmess
+  client-fingerprint: chrome
+  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
+  alterId: 0
+  cipher: auto
+  tls: false
+  tfo: false
+  skip-cert-verify: false
+ -
+  name: ss_20250207_655
+  server: 43.203.206.63
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_656
+  server: 3.35.133.189
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_657
+  server: 52.79.249.199
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_658
+  server: 43.201.102.200
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_659
+  server: 34.217.145.61
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_660
+  server: 35.95.8.174
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_661
+  server: 54.214.157.34
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+ -
+  name: ss_20250207_662
+  server: 154.197.26.237
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf
+  password: asd123456
+ -
+  name: ss_20250207_663
+  server: 62.210.88.22
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NaL2qvIhRWRU2oPO59ShXi
+ -
+  name: ss_20250207_664
+  server: 80.242.56.218
+  port: 50042
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: W2ntIaIjyoh6bVFlXvQrYs
+ -
+  name: ss_20250207_665
+  server: 141.98.234.195
+  port: 36766
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LiGTbOw30gq9Qw7H8eTJWG
+ -
+  name: ss_20250207_666
+  server: bj.xissyun.com
+  port: 46595
+  type: ss
+  cipher: aes-128-gcm
+  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
+ -
+  name: vless_20250207_667
+  server: 104.16.12.75
+  port: 443
+  type: vless
+  uuid: 17272b75-51c8-4999-a4ce-b3bd8679e04e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: liu133.us.kg
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { Host: liu133.us.kg }
+ -
+  name: ssr_20250207_668
+  server: 2.hublink.pro
+  port: 40208
+  type: ssr
+  cipher: rc4-md5
+  password: ENZ52K
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: '92902:pFWGOQ'
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+ -
+  name: vmess_20250207_669
+  server: tk.hzlt.tkddns.xyz
+  port: 22641
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: zxjp-a.tkong.cc }
+  udp: true
+ -
+  name: vmess_20250207_670
+  server: tk.hzlt.tkddns.xyz
+  port: 22642
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+   path: /
+   headers: { Host: zxjp-b.tkong.cc }
+ -
+  name: ss_20250207_671
+  server: cu1.guguyun.xyz
+  port: 23733
+  type: ss
+  cipher: aes-128-gcm
+  password: e2c62a73-3132-48a6-a020-25c3ae0d8af2
+ -
+  name: vless_20250207_672
+  server: 104.24.68.215
+  port: 443
+  type: vless
+  uuid: 17272b75-51c8-4999-a4ce-b3bd8679e04e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: liu133.us.kg
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { Host: liu133.us.kg }
+ -
+  name: vmess_20250207_673
+  server: 104.18.177.156
+  port: 2096
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: none
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+  udp: true
+ -
+  name: ss_20250207_674
+  server: 213.156.137.67
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+ -
+  name: vmess_20250207_675
+  server: 104.19.255.40
+  port: 2083
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: none
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+  udp: true
+ -
+  name: vmess_20250207_676
+  server: 104.22.59.43
+  port: 2083
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: none
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+  udp: true
+ -
+  name: vmess_20250207_677
+  server: 104.19.249.41
+  port: 2096
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: none
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+  udp: true
+ -
+  name: vmess_20250207_678
+  server: 104.17.73.127
+  port: 2083
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: none
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+  udp: true
+ -
+  name: vless_20250207_679
+  server: 190.93.246.124
+  port: 443
+  type: vless
+  uuid: 17272b75-51c8-4999-a4ce-b3bd8679e04e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: liu133.us.kg
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { Host: liu133.us.kg }
+ -
+  name: vmess_20250207_680
+  server: 172.67.171.155
+  port: 2053
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: none
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+  udp: true
+ -
+  name: ss_20250207_681
+  server: 181.119.30.20
+  port: 989
+  type: ss
+  cipher: aes-256-cfb
+  password: f8f7aCzcPKbsF8p3
+ -
+  name: vless_20250207_682
+  server: 172.64.89.161
+  port: 443
+  type: vless
+  uuid: 17272b75-51c8-4999-a4ce-b3bd8679e04e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: liu133.us.kg
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { Host: liu133.us.kg }
+ -
+  name: vmess_20250207_683
+  server: 104.18.17.87
+  port: 2053
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_684
+  server: 104.16.36.14
+  port: 443
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_685
+  server: 104.18.177.152
+  port: 2087
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_686
+  server: 104.16.36.66
+  port: 2083
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_687
+  server: 104.19.255.156
+  port: 2083
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_688
+  server: 104.19.255.204
+  port: 443
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_689
+  server: 104.22.59.117
+  port: 443
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vless_20250207_690
+  server: 172.64.151.130
+  port: 443
+  type: vless
+  uuid: 17272b75-51c8-4999-a4ce-b3bd8679e04e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: liu133.us.kg
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { Host: liu133.us.kg }
+ -
+  name: vmess_20250207_691
+  server: 104.16.36.31
+  port: 2083
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_692
+  server: 172.67.171.135
+  port: 2053
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_693
+  server: 104.19.255.89
+  port: 8443
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_694
+  server: 104.18.177.31
+  port: 2083
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_695
+  server: 104.17.134.206
+  port: 2053
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vless_20250207_696
+  server: 104.24.39.208
+  port: 443
+  type: vless
+  uuid: 17272b75-51c8-4999-a4ce-b3bd8679e04e
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: liu133.us.kg
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+   path: '/?ed=2560'
+   headers: { Host: liu133.us.kg }
+ -
+  name: vmess_20250207_697
+  server: 104.17.73.62
+  port: 443
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_698
+  server: 104.19.255.248
+  port: 443
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_699
+  server: 104.19.255.189
+  port: 2053
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_700
+  server: 172.67.171.113
+  port: 2087
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: s16.2go.us.kg
+  network: ws
+  ws-opts:
+   path: '/vmess-argo?ed=2048'
+   headers: { Host: s16.2go.us.kg }
+ -
+  name: vmess_20250207_701
+  type: vmess
+  server: vu-mumbai-01.vnode.info
+  port: 2053
+  uuid: a04001f3-2dba-40ed-8c2e-d0c765d9afaa
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: vu-mumbai-01.vnode.info
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /
+   headers: { HOST: vu-mumbai-01.vnode.info }
+ -
+  name: vmess_20250207_702
+  type: vmess
+  server: northflank.107421.xyz
+  port: 443
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: northflank.107421.xyz
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /vmess
+   headers: { HOST: northflank.107421.xyz }
+ -
+  name: ssr_20250207_703
+  type: ssr
+  server: 185.186.79.53
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: vmess_20250207_704
+  type: vmess
+  server: shsus.256709394.xyz
+  port: 443
+  uuid: 7a8ec047-662b-4a9f-b89f-fd7d97eca90f
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: shsus.256709394.xyz
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /RVr8ALFBsgTfBC
+   headers: { HOST: shsus.256709394.xyz }
+ -
+  name: vmess_20250207_705
+  type: vmess
+  server: zmkkyc.whmvmkwuey.store
+  port: 443
+  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
+  alterId: 0
+  cipher: auto
+  network: ws
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /
+ -
+  name: ss_20250207_706
+  type: ss
+  server: 172.232.171.192
+  port: 1866
+  password: oXGp1+ihlfKg826H
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ss_20250207_707
+  type: ss
+  server: 172.236.122.188
+  port: 1866
+  password: oXGp1+ihlfKg826H
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ss_20250207_708
+  type: ss
+  server: us-ashburn-virginia.keenvpn.me
+  port: 443
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_709
+  type: vmess
+  server: br.899994.xyz
+  port: 443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: br.899994.xyz
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /index
+   headers: { HOST: br.899994.xyz }
+ -
+  name: ss_20250207_710
+  type: ss
+  server: 64.176.184.129
+  port: 1866
+  password: oXGp1+ihlfKg826H
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ss_20250207_711
+  type: ss
+  server: 34.233.201.214
+  port: 443
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_712
+  type: vmess
+  server: www.speedtest.net
+  port: 80
+  uuid: e75ed5a0-e32c-11ef-b535-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: eu-2.hihu.net
+  http-opts: {  }
+  h2-opts: {  }
+  skip-cert-verify: true
+  ws-opts:
+   path: /nd9emita
+   headers: { HOST: eu-2.hihu.net }
+ -
+  name: vmess_20250207_713
+  type: vmess
+  server: plex.com
+  port: 443
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: telegram-isvvpn.ir
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: '/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn'
+   headers: { HOST: telegram-isvvpn.ir }
+ -
+  name: ss_20250207_714
+  type: ss
+  server: 172.233.128.126
+  port: 1866
+  password: oXGp1+ihlfKg826H
+  cipher: chacha20-ietf-poly1305
+ -
+  name: vmess_20250207_715
+  type: vmess
+  server: plex.com
+  port: 80
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: telegram-isvvpn.ir
+  http-opts: {  }
+  h2-opts: {  }
+  skip-cert-verify: true
+  ws-opts:
+   path: '/racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn'
+   headers: { HOST: telegram-isvvpn.ir }
+ -
+  name: ss_20250207_716
+  type: ss
+  server: 45.87.175.58
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ssr_20250207_717
+  type: ssr
+  server: 34.217.145.61
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: vmess_20250207_718
+  type: vmess
+  server: 104.17.147.22
+  port: 80
+  uuid: e75ed5a0-e32c-11ef-b535-205c6d5f5d78
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: eu-2.hihu.net
+  http-opts: {  }
+  h2-opts: {  }
+  skip-cert-verify: true
+  ws-opts:
+   path: /nd9emita
+   headers: { HOST: eu-2.hihu.net }
+ -
+  name: ssr_20250207_719
+  type: ssr
+  server: 52.37.136.134
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_720
+  type: ssr
+  server: 54.212.56.86
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_721
+  type: ssr
+  server: 34.219.5.41
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: vmess_20250207_722
+  type: vmess
+  server: lax2.ibgfw.top
+  port: 8443
+  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: lax2.ibgfw.top
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /dyajvws
+   headers: { HOST: lax2.ibgfw.top }
+ -
+  name: ss_20250207_723
+  type: ss
+  server: 77.239.100.183
+  port: 65078
+  password: d4W8Hji11mU9vO2XfinHXU
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ss_20250207_724
+  type: ss
+  server: 104.207.155.64
+  port: 1633
+  password: o_A7inN1yqeWtOTL
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ss_20250207_725
+  type: ss
+  server: 154.3.8.151
+  port: 30067
+  password: iUB0923RBA
+  cipher: aes-256-gcm
+ -
+  name: ss_20250207_726
+  type: ss
+  server: 213.109.147.242
+  port: 62685
+  password: VpKABcOpNNA0l5G2AVOmw8
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ssr_20250207_727
+  type: ssr
+  server: 34.211.228.158
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_728
+  type: ssr
+  server: 54.213.141.30
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_729
+  type: ssr
+  server: 54.185.251.195
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_730
+  type: ssr
+  server: 54.214.157.34
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ss_20250207_731
+  type: ss
+  server: 91.108.240.23
+  port: 4619
+  password: eGqbOk5Sd0qd1EnNOCkmQ4
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ssr_20250207_732
+  type: ssr
+  server: 35.94.149.165
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_733
+  type: ssr
+  server: 35.162.245.105
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_734
+  type: ssr
+  server: 18.236.161.128
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_735
+  type: ssr
+  server: 44.243.30.0
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ss_20250207_736
+  type: ss
+  server: 46.246.98.155
+  port: 44013
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ssr_20250207_737
+  type: ssr
+  server: 54.190.43.178
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: ssr_20250207_738
+  type: ssr
+  server: 34.218.228.243
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: vmess_20250207_739
+  type: vmess
+  server: hk1.899994.xyz
+  port: 443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  network: ws
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /index
+ -
+  name: ssr_20250207_740
+  type: ssr
+  server: 44.246.37.239
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+ -
+  name: vmess_20250207_741
+  type: vmess
+  server: it0.899994.xyz
+  port: 8443
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: it0.899994.xyz
+  http-opts: {  }
+  h2-opts: {  }
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+   path: /index
+   headers: { HOST: it0.899994.xyz }
+ -
+  name: ss_20250207_742
+  type: ss
+  server: 217.30.10.18
+  port: 9093
+  password: wfLC2y7rzZyCmuyt
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: trojan_20250207_743
+  type: trojan
+  server: 51.21.124.252
+  port: 22222
+  network: tcp
+  password: telegram-id-directvpn
+  sni: trojan.burgerip.co.uk
+  alpn:
+   - http/1.1
+  ip-version: dual
+  udp: true
+ -
+  name: ss_20250207_744
+  type: ss
+  server: 217.30.10.18
+  port: 9094
+  password: rpgbNnU9rDDU4aWZ
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_745
+  type: ss
+  server: 217.30.10.18
+  port: 9056
+  password: rNBfNuuANFCAk7KB
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_746
+  type: ss
+  server: 217.30.10.18
+  port: 9014
+  password: KnJGad3FqTvjqbaX
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_747
+  type: ss
+  server: 185.193.49.88
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_748
+  type: ss
+  server: 181.119.30.20
+  port: 990
+  password: f8f7aCzcPKbsF8p3
+  ip-version: dual
+  udp: true
+  cipher: chacha20-ietf-poly1305
+ -
+  name: ss_20250207_749
+  type: ss
+  server: 188.214.36.155
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_750
+  type: ss
+  server: 14.18.253.178
+  port: 8347
+  password: q2kSGp4ayFKB
+  ip-version: dual
+  udp: true
+  cipher: chacha20
+ -
+  name: ss_20250207_751
+  type: ss
+  server: 217.30.10.18
+  port: 9031
+  password: BwcAUZk8hUFAkDGN
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_752
+  type: ss
+  server: 217.30.10.18
+  port: 9019
+  password: GA9KzeEgvfxNrgmM
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_753
+  type: ss
+  server: 217.30.10.18
+  port: 9038
+  password: gYCYXfkUQEs2TaJQ
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_754
+  type: ss
+  server: 217.30.10.18
+  port: 9011
+  password: M3t2ZEQcMGRWBjRa
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_755
+  type: ss
+  server: 37.235.49.152
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_756
+  type: ss
+  server: 217.30.10.18
+  port: 9001
+  password: UkXRsXvR6buDMG2Y
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_757
+  type: ss
+  server: 217.30.10.18
+  port: 9033
+  password: UTJA57ypk2XKQpnm
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
+ -
+  name: ss_20250207_758
+  type: ss
+  server: 37.143.129.230
+  port: 989
+  password: f8f7aCzcPKbsF8p3
+  ip-version: dual
+  udp: true
+  cipher: aes-256-cfb
